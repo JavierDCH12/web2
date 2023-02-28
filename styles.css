@@ -19,6 +19,7 @@ header{
     flex-direction: row;
     height: 150px;
     justify-content: space-around;
+    position: sticky;
 }
 
 #logo{
@@ -49,21 +50,22 @@ header{
 .nav1{
     font-family: Helvetica, Arial;
     margin-bottom: 35px;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 455px;
-    width: 90px;
-    padding-left: 5px;
+    width: 110px;
+    
     transition: all 300ms;
+    color: white;
+    text-align: center;
 }
 
 .nav1:hover{
     box-shadow: 1px 1px 1px 1px ;
     cursor: pointer;
     background-color: rgb(79, 119, 171);
-    border-radius: 10%
+    border-radius: 10%;
+ 
 }
-
-
 
 #nav{
     background-color: rgb(17, 70, 138);
@@ -72,8 +74,6 @@ header{
     justify-content: space-around;
     height: 50px;
     color: #ccc;
-  
-
 
 }
 
@@ -101,6 +101,47 @@ header{
     margin-right: 20px;
 }
 
+.article{
+    border: 1px solid red;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #ccc;
+}
+
+
+
+.article h2{
+    font-family: Helvetica, Arial;
+    font-size: 30px;
+    padding: 0;
+}
+.article p{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+}
+
+#hashtag{
+    font-size: 18x;
+    color: black;
+    font-style: oblique;
+    cursor: pointer;
+  
+}
+
+
 #sidebar{
     width: 30%;
+}
+
+footer{
+    font-family: Helvetica,Arial;
+    height: 47px;
+    color: white;
+    background: rgba(51, 51, 51, 0.8);
+    margin: 0px auto;
+    width: 75%;
+    margin-top: 19px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 30px;
 }
