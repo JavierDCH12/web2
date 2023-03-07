@@ -265,7 +265,9 @@ footer{
     font-size: 22px;
 }
 
-/*FORMULARIO*/
+/*FORMULARIO source:https://codepen.io/ainalem/pen/GRqPwoz  */
+
+
 
 
 .form {
@@ -377,19 +379,18 @@ footer{
     top: 20px;
   }
   
-  .input:focus ~ .placeholder,
+    .input:focus ~ .placeholder,
   .input:not(:placeholder-shown) ~ .placeholder {
     transform: translateY(-30px) translateX(10px) scale(0.75);
   }
-  
+
   .input:not(:placeholder-shown) ~ .placeholder {
     color: #808097;
   }
-  
+
   .input:focus ~ .placeholder {
     color: #dc2f55;
   }
-  
   .submit {
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
