@@ -111,41 +111,34 @@
             </p>
           </div>
 
-          <div id="login">
-            <h4><span class="quiensoy">Identificate</span></h4>
+          <form action="" method="POST">
 
-            <div class="form">
-              <div class="title">A Japón! &#127759;</div>
-              <!--Añadimos dos emoji en el HTML-->
-              <div class="subtitle">Create tu cuenta</div>
-              <div class="input-container ic1">
-                <input
-                  id="firstname"
-                  class="input"
-                  type="text"
-                  placeholder=" "
-                />
-                <div class="cut"></div>
-                <label for="firstname" class="placeholder">Nombre</label>
-              </div>
-              <div class="input-container ic2">
-                <input
-                  id="lastname"
-                  class="input"
-                  type="text"
-                  placeholder=" "
-                />
-                <div class="cut"></div>
-                <label for="lastname" class="placeholder">Apellidos</label>
-              </div>
-              <div class="input-container ic2">
-                <input id="email" class="input" type="text" placeholder=" " />
-                <div class="cut cut-short"></div>
-                <label for="email" class="placeholder">Email</label>
-              </div>
-              <button type="text" class="submit">Enviar</button>
-            </div>
-          </div>
+            <label for="name">
+              Nombre
+              <input id="name" name="name" type="text">
+            </label>
+
+            <label for="email">
+              Email
+              <input id="email" name="email" type="email">
+            </label>
+
+            <label for="password">
+              Contraseña
+              <input id="password" name="password" type="password">
+            </label>
+
+            <label for="submit">
+              Submit
+              <input id="submit" name="submit" type="submit">
+            </label>
+
+          </form>
+
+
+
+
+
         </aside>
       </section>
     </div>
