@@ -159,7 +159,7 @@ header{
 
 
 
-.article h2{
+.article h2 a{
     font-family: Helvetica, Arial;
     font-size: 30px;
     padding: 0;
@@ -167,6 +167,7 @@ header{
     transition: all 500ms;
     width:90% ;
     padding-left: 10px;
+    color: rgb(41, 41, 41);
 }
 
 .article h2:hover{

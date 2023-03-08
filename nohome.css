@@ -135,15 +135,15 @@ header{
 }
 
 
-
-.article h2{
+.article h2 a{
     font-family: Helvetica, Arial;
     font-size: 30px;
     padding: 0;
     cursor: pointer;
     transition: all 500ms;
-    width:35% ;
+    width:90% ;
     padding-left: 10px;
+    color: rgb(41, 41, 41);
 }
 
 .article h2:hover{
@@ -226,6 +226,56 @@ footer{
 
 #black{
     background-color: black;
+    cursor: pointer;
+
+}
+
+#osaka1, #osaka2{
+    width: 100%;
+   
+}
+
+#barrios, #comidas{
+    list-style: none;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#barrios li{
+    padding-top: 10px;
+}
+
+#comidas li{
+    padding-top: 10px;
+}
+
+#osakaflex{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 55px;
+}
+
+.barrio{
+    width: calc(100%/3);
+    margin-bottom: 25px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+   
+
+}
+
+.fotobarrio{
+    width: 99%;
+    height: 99%;
+    padding: 0 auto;
+    margin: 0 auto;
     cursor: pointer;
 
 }
