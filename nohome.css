@@ -279,3 +279,38 @@ footer{
     cursor: pointer;
 
 }
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th{
+    font-size: 20px;
+}
+
+td a{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    color: rgb(221, 111, 111);
+
+}
+
+#comidas{
+    list-style: disc;
+    padding-left: 15px;
+   
+    margin: 0;
+}
+
+#comidas li{
+   
+}
