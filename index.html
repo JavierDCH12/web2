@@ -13,7 +13,7 @@
       <header>
         <h1 id="logo"><a href="./index.html" target="_blank">JAPÓN</a></h1>
         <div id="nav-arriba">
-          <span class="nav1">Home</span>
+          <span class="nav1"><a href="./index.html"></a>Home</span>
           <span class="nav1" class="nosotros">Nosotros</span>
         </div>
       </header>
@@ -107,28 +107,24 @@
               Somos una página web dedicada a todo lo que tiene que ver con
               Japón y los viajes a ese fascinante país. En nuestra web ponemos a
               tu disposición una gran cantidad de recursos para hacer de tu
-              viaje algo personalizado e involvidable
+              viaje algo personalizado e involvidable.
             </p>
           </div>
 
           <div class="login-box">
             <h2>Login</h2>
-            <form>
+            <form method="post" action="#" name="formulario-web">
               <div class="user-box">
-                <input type="text" name="" required="">
-                <label>Username</label>
+                <input type="text" name="username" minlength="5" maxlength="25" title="Tamaño máximo de 25 y mínimo de 5 caracteres" required pattern="[A-Za-z0-9]{0-25}">
+                <label for="username">Username</label>
               </div>
               <div class="user-box">
-                <input type="password" name="" required="">
-                <label>Password</label>
+                <input type="password" name="Password" minlength="5" maxlength="15" title="Tamaño máximo de 15 y mínimo de 5 caracteres" required>
+                <label for="password">
+                  Password
+                </label>
               </div>
-              <a href="#">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Submit
-              </a>
+              <input type="submit" name="submit" value="Submit" class="myButton">
             </form>
 
 
@@ -140,9 +136,9 @@
     </div>
 
     <div id="theme-selector">
-      <span id="red"></span>
-      <span id="green"></span>
-      <span id="black"></span>
+      <span id="red" class="tooltip"><span class="tooltiptext">Tema rojo</span></span>
+      <span id="green" class="tooltip"><span class="tooltiptext">Tema verde</span></span>
+      <span id="black" class="tooltip"><span class="tooltiptext">Tema negro</span></span>
     </div>
 
     <footer>Página web realizada por Javier Delgado Chacón &copy;</footer>
