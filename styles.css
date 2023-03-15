@@ -34,6 +34,8 @@ header{
   
 }
 
+/*Creamos el longo con una animacion muy basica*/
+
 #logo{
     font-size: 35px;
     font-family: Verdana, Arial;
@@ -73,7 +75,7 @@ header{
 
 
 
-
+/*Creamos las diferentes barras de navegacion*/
 
 #nav-arriba{
     display: flex;
@@ -227,6 +229,8 @@ footer{
     line-height: 30px;
 }
 
+/*Creamos el selector de temas, de un javascript posterior*/
+
 #theme-selector{
     width: 35px;
     height: 75px;
@@ -280,6 +284,9 @@ footer{
     margin-left: 125px;
     font-size: 22px;
 }
+
+
+/*FORMULARIO source:https://codepen.io/ainalem/pen/GRqPwoz  */
 
 .login-box {
   position: absolute;
@@ -341,12 +348,7 @@ footer{
   font-size: 12px;
 }
 
-
-
-
-
-/*FORMULARIO source:https://codepen.io/ainalem/pen/GRqPwoz  */
-
+/*Creamos el formulario*/
 
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;

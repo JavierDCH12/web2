@@ -311,3 +311,12 @@ td a{
     margin: 0;
 }
 
+#comidas li{
+    font-size: 16px;
+}
+
+
+#comidas_t{
+    font-size: 25px;
+    font-weight: 600;
+}
